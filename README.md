@@ -1,11 +1,13 @@
 # fclj
 
 Crawls the excellent 4clojure website and spits one namespace for each
-(approved) problem. Outputs in the `tmp` directory
+(approved) problem. Outputs in the `tmp` directory.
 
 ## Usage
 
-TODO
+```
+boot crawl
+```
 
 ## License
 

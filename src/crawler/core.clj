@@ -110,7 +110,7 @@
                (spit (str "tmp/"
                           difficulty
                           "/p"
-                          problem-number
+                          (format "%03d" problem-number)
                           ".clj")))
           (println "unknown difficulty setting for" problem-number))))
     (catch Exception e

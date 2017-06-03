@@ -104,7 +104,7 @@
                                         (when-not (empty? restrictions)
                                           formatted-restrictions)
                                         formatted-description
-                                        "(def __\n  ,,,\n  ;; Your code here!\n  ,,,)"
+                                        "(def __\n  ;; Your code here!\n\n  ,,,)"
                                         ";; Test cases:"]))]
                                test-cases))
                (spit (str "tmp/"
